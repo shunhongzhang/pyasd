@@ -1,10 +1,10 @@
-# Python-based Atomistic Spin Dynamics simulator (pyASD)
+# Atomistic Spin Dynamics (ASD) Tools
 
 
 This is a python package containing
 some tools for spin dynamics simulations
-By Shunhong Zhang (USTC)
-Copyright reserved 2023
+
+Copyright Shunhong Zhang 2023
 szhang2@ustc.edu.cn
 
 
@@ -22,24 +22,25 @@ szhang2@ustc.edu.cn
 
 * To check whether you have successfully install the package, go to the python interactive shell
  
-import asd.core.geometry
+ import asd.core
 
-import asd.utility.spirit_tool
+ import asd.utility
 
-import data_base.exchange_for_CrI3
+ import data_base
 
 If everything runs smoothly then it should be done.
 
 * If it does not work, try one of the following:
  python setup.py install --home=.
- 
+
  python setup.py install --user
+
  If you still have problems, contact the author for help
- 
 
 ## To clean the package:
 ./clean
+
 this operation will remove:
 build and dists, which are generated upon compilation
-results in the test directory, including dat/ovf files and figures
+results in the examples/tests_basic directory, including dat/ovf files and figures
 
