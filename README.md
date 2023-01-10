@@ -1,10 +1,10 @@
-# Atomistic Spin Dynamics (ASD) Tools
+# Python-based Atomistic Spin Dynamics simulator (pyasd)
 
 
-This is a python package containing
-some tools for spin dynamics simulations
+This is a python package for spin dynamics simulations
 
 Copyright Shunhong Zhang 2023
+
 szhang2@ustc.edu.cn
 
 
@@ -17,6 +17,11 @@ szhang2@ustc.edu.cn
 * tests_basic: some testing cases
 
 ## Installation
+* Fast installation via pypi
+pip install pyasd
+
+* Download the zip or tarball (tar.gz) of the package
+* unzip the package
 * Run the script
 ./compile.sh
 
@@ -37,10 +42,12 @@ If everything runs smoothly then it should be done.
 
  If you still have problems, contact the author for help
 
-## To clean the package:
+
+## Clean installation
 ./clean
 
 this operation will remove:
-build and dists, which are generated upon compilation
-results in the examples/tests_basic directory, including dat/ovf files and figures
 
+build and dists, which are generated upon compilation
+
+results in the examples/tests_basic directory, including dat/ovf files and figures
