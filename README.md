@@ -23,15 +23,19 @@ szhang2@ustc.edu.cn
 * To check whether you have successfully install the package, go to the python interactive shell
  
 import asd.core.geometry
+
 import asd.utility.spirit_tool
+
 import data_base.exchange_for_CrI3
 
 If everything runs smoothly then it should be done.
 
 * If it does not work, try one of the following:
  python setup.py install --home=.
+ 
  python setup.py install --user
  If you still have problems, contact the author for help
+ 
 
 ## To clean the package:
 ./clean
