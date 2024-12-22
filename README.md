@@ -11,23 +11,29 @@ szhang2@ustc.edu.cn
 ## Code distributions:
 
 * core: core scripts for spin dynamics simulations
-* utility: scripts for post-processing, applied to the current code and Spirit
-* data_base: some exchange parameters for typical magnetic materials, udner construction
+* mpi: some utilities for parallelization using mpi4py
+* utility: some functions for post-processing, analyzing and plotting
+* data_base: Exchange parameters for some typical magnetic materials
 * examples: some examples to do fast test on the code
+* Scripts: some executables for post-processing, applied to the current code and the Spirit code
 * tests_basic: some testing cases
+* Tests: more testing cases
 
 ## Installation
 * Fast installation via pypi
+
 pip install pyasd
 
 * Download the zip or tarball (tar.gz) of the package
 * unzip the package
 * Run the script
-./compile.sh
+./setup.py install --user
 
 * To check whether you have successfully install the package, go to the python interactive shell
  
  import asd.core
+
+ import asd.mpi
 
  import asd.utility
 
